@@ -421,13 +421,13 @@ ul.clients li{
 }
 
 .team {
-	border: 1px solid #c3c3c3;
-	padding: 70px 20px;
+	border: 1px solid #FBFBFB;
+	padding: 10px 5px;
 	text-align: center;
 	opacity: 0.7;
 	transition: all 0.8s;
 	max-height: 340px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .team:hover.hire,
 .team.hire{
@@ -442,11 +442,12 @@ ul.clients li{
 }
 .team hr{
 	border-width: 2px;
-	border-color: #dcc2a7;
+	border-color: #E25151;
 }
 .team:hover{
 	opacity: 1;
-	border: 1px solid #222;
+	border: 1px solid #E25151;
+  
 }
 .team img {
 	width: 80px;
@@ -602,3 +603,30 @@ nav#footer{
 }
 #footer a:hover{
 	color: #E25151;}
+
+
+.namecard{
+  color: #E25151;
+}
+
+.install{
+  width: 100%;
+  bottom: 0px;
+  z-index: 4;
+  position: fixed;
+  background-color: #F06666;
+  padding: 5px 10px;
+  font-size: .6em;
+  align-items: center;
+  float: right;
+}
+
+.storyslogan{
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+.paragrah{
+  line-height: 23px;
+   letter-spacing: 2px;
+}
