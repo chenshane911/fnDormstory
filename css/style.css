@@ -364,11 +364,13 @@ a.btn.read-more-btn{
 	background: #EA5E5E;
 	color: #282f35;
 	word-spacing: 2px;
-	padding: 7px 130px;
+	padding: 7px 0px;
 	border-radius: 2px;
 	font-size: 12px;
 	color: #ffffff;
 	transition: all 0.5s;
+    margin-top: 5px;
+    width: 200px;
 }
 a.btn.read-more-btn:hover{
 	background: #F7D1BF;
@@ -588,7 +590,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 nav#footer{
-	background: #282f35;
+	background: #232323;
 	padding: 40px 0;
 	color: #ffffff;
 	border-bottom: 5px solid #E25151;
@@ -629,4 +631,22 @@ nav#footer{
 .paragrah{
   line-height: 23px;
    letter-spacing: 2px;
+}
+
+.Mb{
+  color: #F0F0F0;
+  
+}
+
+.contactinfo{
+  align-content: center;
+  left: 50%;
+}
+
+.contactcontent{
+  padding-left: 40%;
+}
+
+.bktotop{
+  font-size: 1.2em;
 }
