@@ -650,22 +650,3 @@ nav#footer{
 .bktotop{
   font-size: 1.2em;
 }
-
-@media (max-width: 480px) {
-  /* fix bg1 person centering */
-  #home {
-    background-position: 60% 50%;
-  }
-
-  /* fix youtube embeded video */
-  iframe {
-    width: 100%;
-  }
-
-  .actorspan {
-    padding: 15px;
-  }
-  .actorspan span {
-    white-space: pre;
-  }
-}
