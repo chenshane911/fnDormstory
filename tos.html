@@ -1,5 +1,6 @@
 <head>
   <title>Terms of Service</title>
+  <meta http-equiv="refresh" content="0; url=https://blog.fndorm.com/%E5%98%BF%E7%BE%8E-%E6%88%91%E7%9A%84%E5%8C%85%E8%A3%B9%E9%9A%B1%E7%A7%81%E6%94%BF%E7%AD%96-18953ef3f0cd/" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
    html, body {
@@ -11,6 +12,11 @@
      background-color: #282828;
      min-height: 100vh;
      padding: 5rem 10%;
+     opacity: 0;
+     transition: opacity 1s ease-out;
+   }
+   section.show {
+     opacity: 1;
    }
    @media (max-width: 480px) {
      section {
@@ -20,7 +26,7 @@
   </style>
 </head>
 <body>
-  <section>
+  <section id="app">
     <h1>為了讓您能夠安心的使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：</h1>
     <h2>一、隱私權保護政策的適用範圍</h2>
     <p>此隱私權保護政策適用範圍為此系統及其相關業務處理。</p>
@@ -37,4 +43,11 @@
     <h2>七、隱私權保護政策之修正</h2>
     <p>本系統有權更改此隱私權保護政策之內容，並讓使用者知道其更新。</p>
   </section>
+  <script>
+   window.onload = function() {
+     setTimeout(function() {
+       document.getElementById('app').classList.add('show');
+     }, 5000);
+   };
+  </script>
 </body>
